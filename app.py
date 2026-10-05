@@ -46,6 +46,15 @@ cursos = [
     }
 ]
 
+@app.route("/", methods=["GET"])
+def inicio():
+    return jsonify({
+        "mensagem": "API de Cursos Técnicos funcionando",
+        "endpoints": [
+            "GET /cursos",
+            "GET /cursos/<id>"
+        ]
+    })
 
 @app.route("/cursos", methods=["GET"])
 def listar_cursos():
