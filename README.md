@@ -145,9 +145,9 @@ Os dados utilizados na aplicação são fictícios e foram inseridos diretamente
 
 ## 11. Versionamento
 
-O projeto deve ser versionado com Git e disponibilizado em um repositório público ou compartilhado no GitHub.
+Versionado com Git e disponibilizado em um repositório público ou compartilhado no GitHub.
 
-Sugestão de histórico de commits:
+Histórico de commits:
 
 1. `Commit inicial: cria estrutura do projeto`
 2. `Docs: adiciona planejamento da arquitetura`
